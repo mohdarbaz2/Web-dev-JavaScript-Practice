@@ -1,9 +1,9 @@
 //type conversion = change the datatype of a value to another
 // (string, numbers, booleans)
 
-let x ="pizza";
-let y ="pizza";
-let z ="pizza";
+let x ="";
+let y ="";
+let z ="";
 
 x=Number(x);
 y=String(y);

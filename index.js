@@ -1,14 +1,9 @@
-// console.log("Hello JavaScript.....")
+//type conversion = change the datatype of a value to another
+// (string, numbers, booleans)
 
+let age = window.prompt("How old are you?")
+age = Number(age);
+age +=1;
 
-//How to accept user input
+console.log(age, typeof age); 
 
-//1. Easy way= window prompt
-//2. PROFESSIONAL WAY = HTML textbox
-let username;
-
-document.getElementById("mySubmit").onclick = function(){
-    username = document.getElementById("myText").value;
-    // console.log(username);
-    document.getElementById("myH1").textContent =`Hello ${username}`;
-}
